@@ -22,6 +22,9 @@ class ViewController: UIViewController, UIPickerViewDelegate,UIPickerViewDataSou
     @IBOutlet weak var elevation: UITextField!
     @IBOutlet weak var latitude: UITextField!
     @IBOutlet weak var longitude: UITextField!
+    @IBOutlet weak var image: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

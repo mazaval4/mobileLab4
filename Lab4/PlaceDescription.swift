@@ -27,17 +27,18 @@ import UIKit
 
 class PlaceDescription
 {
-    var addressTitle: String = "";
-    var addressStreet: String = "";
+    var addressTitle: String
+    var addressStreet: String
     var elevation: Double;
     var latitude: Double;
     var longitude: Double;
     var name: String;
+    var image: String
     var description: String;
     var category: String;
     
     
-    init(addressTitle:String,addressStreet:String,elevation:Double,latitude:Double,longitude:Double,name:String,description:String, category:String)
+    init(addressTitle:String,addressStreet:String,elevation:Double,latitude:Double,longitude:Double,name:String,image:String,description:String, category:String)
     {
         self.addressTitle = addressTitle;
         self.addressStreet = addressStreet;
@@ -45,10 +46,12 @@ class PlaceDescription
         self.latitude = latitude;
         self.longitude = longitude;
         self.name = name;
+        self.image = image;
         self.description = description;
         self.category = category;
         
     }
+    
     
     func setAddressTitle(addressTitle:String) -> Void {
         self.addressTitle = addressTitle;

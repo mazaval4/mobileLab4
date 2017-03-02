@@ -16,6 +16,7 @@
 		0B4869391E66E85900D69B19 /* Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4869381E66E85900D69B19 /* Lab4UITests.swift */; };
 		0B4869471E66E9E100D69B19 /* PlaceDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4869461E66E9E100D69B19 /* PlaceDescription.swift */; };
 		0B4869491E66E9F700D69B19 /* PlaceLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4869481E66E9F700D69B19 /* PlaceLibrary.swift */; };
+		0B7B60191E686D660094DA28 /* PlaceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B60181E686D660094DA28 /* PlaceList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0B48693A1E66E85900D69B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4869461E66E9E100D69B19 /* PlaceDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDescription.swift; sourceTree = "<group>"; };
 		0B4869481E66E9F700D69B19 /* PlaceLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceLibrary.swift; sourceTree = "<group>"; };
+		0B7B60181E686D660094DA28 /* PlaceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4869181E66E85900D69B19 /* AppDelegate.swift */,
+				0B7B60181E686D660094DA28 /* PlaceList.swift */,
 				0B48691A1E66E85900D69B19 /* ViewController.swift */,
 				0B4869461E66E9E100D69B19 /* PlaceDescription.swift */,
 				0B4869481E66E9F700D69B19 /* PlaceLibrary.swift */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B48691B1E66E85900D69B19 /* ViewController.swift in Sources */,
+				0B7B60191E686D660094DA28 /* PlaceList.swift in Sources */,
 				0B4869471E66E9E100D69B19 /* PlaceDescription.swift in Sources */,
 				0B4869191E66E85900D69B19 /* AppDelegate.swift in Sources */,
 				0B4869491E66E9F700D69B19 /* PlaceLibrary.swift in Sources */,
@@ -513,6 +517,7 @@
 				0B48693F1E66E85900D69B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B4869401E66E85900D69B19 /* Build configuration list for PBXNativeTarget "Lab4Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				0B4869421E66E85900D69B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B4869431E66E85900D69B19 /* Build configuration list for PBXNativeTarget "Lab4UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				0B4869451E66E85900D69B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
