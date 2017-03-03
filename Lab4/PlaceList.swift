@@ -10,24 +10,34 @@ import UIKit
 
 class PlaceList: UITableViewController{
     
-    let myarray = ["item1", "item2", "item3"]
+    var library: PlaceLibrary = PlaceLibrary();
+    var myArray: Array<PlaceDescription> = Array();
+    var placeLibrary = PlaceLibrary.sharedInstance;
     
     
     override func viewDidLoad() {
+        library.getAssets();
+        myArray = PlaceLibrary.sharedInstance.getPlacesArray();
         super.viewDidLoad()
-        let library: PlaceLibrary = PlaceLibrary()
+       
+    }
+   
     
-        
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        myArray = PlaceLibrary.sharedInstance.getPlacesArray();
+        tableView.reloadData()
     }
     
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myarray.count;
+        return myArray.count;
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customcell", for: indexPath)
-        cell.textLabel?.text = myarray[indexPath.item]
+//        print(myarray[indexPath.item].getName())
+        cell.textLabel?.text = myArray[indexPath.item].getName()
         return cell
     }
     
@@ -36,6 +46,18 @@ class PlaceList: UITableViewController{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var selectedItem = indexPath
+        placeLibrary.setRowClicked(row: selectedItem.row);
+        
+    }
+    
+    
+    
+    
     
 }
 

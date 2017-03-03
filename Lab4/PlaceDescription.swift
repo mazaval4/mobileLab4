@@ -109,6 +109,12 @@ class PlaceDescription
         return category;
     }
     
+    func setImage(image:String) -> Void {
+        self.image = image;
+    }
+    func getImage() -> String{
+        return image;
+    }
     
     
     
