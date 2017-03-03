@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B0C16561E696052006BFC33 /* AddPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C16551E696052006BFC33 /* AddPlace.swift */; };
+		0B0C16581E696C72006BFC33 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C16571E696C72006BFC33 /* Calculations.swift */; };
 		0B4869191E66E85900D69B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4869181E66E85900D69B19 /* AppDelegate.swift */; };
 		0B48691B1E66E85900D69B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48691A1E66E85900D69B19 /* ViewController.swift */; };
 		0B48691E1E66E85900D69B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B48691C1E66E85900D69B19 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0B0C16551E696052006BFC33 /* AddPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlace.swift; sourceTree = "<group>"; };
+		0B0C16571E696C72006BFC33 /* Calculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
 		0B4869151E66E85900D69B19 /* Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4869181E66E85900D69B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B48691A1E66E85900D69B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -107,6 +109,7 @@
 			children = (
 				0B4869181E66E85900D69B19 /* AppDelegate.swift */,
 				0B0C16551E696052006BFC33 /* AddPlace.swift */,
+				0B0C16571E696C72006BFC33 /* Calculations.swift */,
 				0B7B60181E686D660094DA28 /* PlaceList.swift */,
 				0B48691A1E66E85900D69B19 /* ViewController.swift */,
 				0B4869461E66E9E100D69B19 /* PlaceDescription.swift */,
@@ -276,6 +279,7 @@
 				0B7B60191E686D660094DA28 /* PlaceList.swift in Sources */,
 				0B4869471E66E9E100D69B19 /* PlaceDescription.swift in Sources */,
 				0B4869191E66E85900D69B19 /* AppDelegate.swift in Sources */,
+				0B0C16581E696C72006BFC33 /* Calculations.swift in Sources */,
 				0B4869491E66E9F700D69B19 /* PlaceLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
